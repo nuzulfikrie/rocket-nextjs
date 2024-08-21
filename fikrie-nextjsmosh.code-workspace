@@ -1,51 +1,53 @@
 {
-    "folders": [
-        {
-            "path": "."
-        }
-    ],
-    "settings": {
-        //linter settings , use eslint
-        "eslint.enable": true,
-        "eslint.packageManager": "npm",
-        "eslint.run": "onSave",
-        "eslint.autoFixOnSave": true,
-        "eslint.validate": [
-            "javascript",
-            "javascriptreact",
-            "typescript",
-            "typescriptreact"
-        ],
-        "editor.codeActionsOnSave": {
-            "source.fixAll.eslint": "explicit"
-        },
-        "editor.tabSize": 2,
-        "editor.detectIndentation": false,
-        "editor.wordWrap": "on",
-        "editor.renderWhitespace": "all",
-        "editor.renderControlCharacters": true,
-        "editor.renderLineHighlight": "all",
-        "editor.renderFinalNewline": "on",
-        "editor.renderWhitespace": "all",
-        "editor.rulers": [
-            80,
-            120
-        ],
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "terminal.intergrated.shell": "/usr/bin/zsh",
-        "terminal.integrated.shellArgs": [
-            "-l"
-        ],
-        "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
-        "editor.formatOnSave": true,
-        "editor.formatOnType": true,
-        "editor.minimap.enabled": false,
-        "editor.fontFamily": "JetBrainsMono Nerd Font",
-        "editor.guides.indentation": true,
-        "material-icon-theme.activeIconPack": "react",
-        "material-icon-theme.folders.theme": "specific",
-        "workbench.colorTheme": "Shades of Purple (Super Dark)",
-        "workbench.iconTheme": "material-icon-theme",
+  "folders": [
+    {
+      "path": "."
     }
+  ],
+  "settings": {
+    //linter settings , use eslint
+    "eslint.enable": true,
+    "eslint.packageManager": "npm",
+    "eslint.run": "onSave",
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.wordWrap": "on",
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
+    "editor.renderFinalNewline": "on",
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "terminal.intergrated.shell": "/usr/bin/zsh",
+    "terminal.integrated.shellArgs": [
+      "-l"
+    ],
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "JetBrainsMono Nerd Font",
+    "editor.guides.indentation": true,
+    "material-icon-theme.activeIconPack": "react",
+    "material-icon-theme.folders.theme": "specific",
+    "workbench.colorTheme": "Shades of Purple (Super Dark)",
+    "workbench.iconTheme": "material-icon-theme",
+    //wevbiew setttings
+    "webview.experimental.serviceWorkers": "disabled"
+  }
 }
